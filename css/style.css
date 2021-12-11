@@ -1,0 +1,866 @@
+.container {
+  max-width: 128rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* -------Home------- */
+
+.header .name-title {
+  background: rgb(14, 12, 12);
+  padding: 1.5rem;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 2.4rem;
+  letter-spacing: 1.5px;
+}
+
+.header .name-title > span {
+  color: #b33a3a;
+}
+
+.header .navbar {
+  padding: 1.2rem 1.5rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.nav-btn {
+  width: 7.5rem;
+  padding: 0.5rem;
+  background: #b33a3a;
+  border: 1.5px solid #b33a3a;
+  color: #fff;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  text-align: center;
+  letter-spacing: 0.5px;
+  transition: all 500ms ease;
+}
+
+.nav-btn:hover {
+  background: #fff;
+  color: #b33a3a;
+}
+
+.nav-btn.active {
+  background: #fff;
+  color: #b33a3a;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/* Main-Section */
+
+.main-hero {
+  padding: 3.5rem 0;
+  border-bottom: 1.5px solid rgba(100, 100, 111, 0.2);
+}
+
+.main-hero .hero-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-item {
+  text-align: center;
+}
+
+.hero-item .title-heading {
+  font-size: 2.2rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.hero-item h2 {
+  font-family: 'Alfa Slab One', cursive;
+  font-weight: 400;
+  padding: 0.65rem 0;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.hero-item h2 > span {
+  color: #b33a3a;
+}
+
+.hero-item p {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.action-btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  width: 18rem;
+  padding: 0.95rem 0.5rem;
+  background: #b33a3a;
+  color: #fff;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.hero-item-img {
+  margin-top: 3.5rem;
+}
+
+.hero-item-img img {
+  display: block;
+  width: 85%;
+  margin: 0 auto;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+/* About-Section */
+
+.about-section {
+  padding: 8.5rem 0;
+}
+
+.about-img {
+  margin-bottom: 3.5rem;
+}
+
+.about-img img {
+  display: block;
+  width: 30rem;
+  height: 30rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.about-section .about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-description h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.about-description h3 {
+  font-size: 2.2rem;
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+.about-description h3 > span {
+  color: #b33a3a;
+}
+
+.about-description p {
+  padding: 0.5rem 0 1rem;
+}
+
+/* Hire-Section */
+
+.hire-section {
+  padding: 8.5rem 0;
+  background: #fafafa;
+}
+
+.hire-section h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  background: rgb(14, 12, 12);
+  padding: 1.5rem;
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.footer .footer-content > span {
+  color: #d14d4d;
+}
+
+/* -------Home------- */
+
+.showcase {
+  height: 55rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(17, 17, 17, 0.438);
+  transition: 0.5s;
+  position: relative;
+}
+
+.showcase video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(14, 12, 12, 0.4);
+  mix-blend-mode: overlay;
+}
+
+.travel-content {
+  position: absolute;
+  top: 50%;
+  left: 1.5rem;
+  transform: translateY(-50%);
+  z-index: 10;
+  padding-right: 1.5rem;
+}
+
+.travel-content h2 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 3.2rem;
+  font-weight: 400;
+  color: #b33a3a;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.travel-content h3 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.travel-content p {
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 20px 0;
+  font-weight: 400;
+  max-width: 700px;
+}
+
+.travel-content .travel-btn {
+  display: block;
+  margin-top: 1.5rem;
+  width: 18rem;
+  padding: 0.95rem 0.5rem;
+  background: #b33a3a;
+  color: #fff;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+/* World-Travel-Places */
+
+.world-places {
+  padding: 8.5rem 0;
+}
+
+.world-places h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.world-places h3 {
+  font-size: 1.8rem;
+  color: #b33a3a;
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+.world-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2.5rem;
+  padding-top: 2.5rem;
+}
+
+.world-gallery .card h2 {
+  background: rgb(14, 12, 12);
+  font-size: 2.2rem;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.world-gallery img {
+  width: 100%;
+  display: block;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  transition: all 500ms ease;
+}
+
+.world-gallery img:hover {
+  transform: scale(1.04);
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+/* Parallax Section */
+.parallax-section {
+  display: none;
+}
+
+#parallax-1 {
+  height: 100vh;
+  border: 2.5px solid #b33a3a;
+  width: 100%;
+  background-image: url('../images/Switzerland.jpeg');
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+
+#parallax-2 {
+  height: 100vh;
+  border: 2.5px solid #b33a3a;
+  width: 100%;
+  background-image: url('../images/Venice.jpeg');
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+
+#parallax-3 {
+  height: 100vh;
+  border: 2.5px solid #b33a3a;
+  width: 100%;
+  background-image: url('../images/India.jpeg');
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+
+#parallax-4 {
+  height: 100vh;
+  border: 2.5px solid #b33a3a;
+  width: 100%;
+  background-image: url('../images/Egypt.jpg');
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+
+.parallax-section h2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 6rem;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  text-shadow: 2px 2px #000;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* ----------Projects-Page---------- */
+.project-hero {
+  background-image: -webkit-linear-gradient(
+      top,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url('../images/Projects-Hero.jpeg');
+  height: 35rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-content {
+  z-index: 25;
+}
+
+.project-content h2 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 3rem;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1.75px;
+}
+
+.project-content p {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+}
+
+/* Flip Card */
+
+.projects-showcase {
+  padding: 8.5rem 0;
+  overflow: hidden;
+}
+
+.projects-showcase h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 2.5rem;
+}
+
+.projects-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 35rem;
+  height: 45rem;
+  margin-bottom: 3.5rem;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(0deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front img {
+  display: block;
+  width: 35rem;
+  height: 45rem;
+  margin: 0 auto;
+}
+
+.flip-card-front {
+  color: black;
+  opacity: 0.8;
+}
+
+.flip-card-back {
+  background-color: #fff;
+  padding: 0 1.5rem;
+  transform: rotateY(180deg);
+}
+
+.flip-card-back h3 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #a32e2e;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 3.5rem 0 0.5rem;
+}
+
+.flip-card-back p {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #000;
+}
+
+/* Contact */
+.contact {
+  padding: 8.5rem 0;
+}
+
+.contact-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.contact-form {
+  background: #b33a3a;
+  width: 100%;
+  padding: 2.5rem;
+}
+
+.contact-form h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #fff;
+  text-transform: capitalize;
+  padding-bottom: 1.5rem;
+}
+
+.contact-form .form-control {
+  margin-bottom: 1.5rem;
+}
+
+.contact-form .form-control input,
+.contact-form .form-control textarea {
+  font-family: inherit;
+  width: 100%;
+  background: transparent;
+  border-bottom: 1.5px solid #eee;
+  padding: 1.2rem;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.contact-form .form-control input::placeholder,
+.contact-form .form-control textarea::placeholder {
+  color: #fff;
+}
+
+.contact-form .form-control textarea {
+  height: 20rem;
+}
+
+.contact-form .form-control .submit-btn {
+  display: block;
+  width: 15rem;
+  margin: 0 auto;
+  text-align: center;
+  background: #fff;
+  color: #b33a3a;
+  font-weight: 600;
+  border: 0;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.contact-description {
+  width: 100%;
+  padding: 2.5rem;
+}
+
+.contact-description h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: rgb(14, 12, 12);
+  text-transform: capitalize;
+  padding-bottom: 0.5rem;
+}
+
+.contact-description .contact-detail {
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding-top: 1.5rem;
+}
+
+.contact-description .contact-detail p {
+  padding-bottom: 1rem;
+}
+
+.contact-description .contact-detail p > span {
+  color: #b33a3a;
+  font-weight: 700;
+}
+
+/* ---------Media Queries--------- */
+
+@media (min-width: 550px) {
+  .flip-card-front img {
+    width: 52rem;
+    height: 62rem;
+  }
+
+  .flip-card {
+    width: 52rem;
+    height: 62rem;
+  }
+}
+
+@media (min-width: 767px) {
+  .header .name-title {
+    font-size: 4rem;
+  }
+
+  .header .navbar {
+    padding: 1.5rem;
+    gap: 2.5rem;
+  }
+
+  .nav-btn {
+    width: 10rem;
+    padding: 0.95rem;
+    font-size: 1.5rem;
+  }
+
+  .hero-item-img img {
+    width: 65%;
+  }
+
+  .hero-item-img {
+    width: 50%;
+  }
+
+  .hero-item-img img {
+    width: 95%;
+  }
+
+  .main-hero .hero-flex {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .hero-item .title-heading {
+    font-size: 3.2rem;
+    text-align: left;
+  }
+
+  .hero-item h2 {
+    font-size: 4rem;
+    text-align: left;
+  }
+
+  .hero-item p {
+    font-size: 2.2rem;
+    text-align: left;
+  }
+
+  .action-btn {
+    border-radius: 1.8rem;
+    margin: 0;
+    margin-top: 1.5rem;
+  }
+
+  .about-section .about-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .about-img img {
+    width: 32rem;
+    height: 32rem;
+  }
+
+  .about-description {
+    width: 50%;
+  }
+
+  .about-description h2 {
+    font-size: 4rem;
+    line-height: 5rem;
+    text-align: left;
+  }
+
+  .about-description h3 {
+    padding: 0;
+    text-align: left;
+  }
+
+  .hire-section .action-btn {
+    margin: 0 auto;
+    margin-top: 1.5rem;
+  }
+
+  /* Travel-Page */
+
+  .showcase {
+    height: 70rem;
+  }
+
+  .travel-content h2 {
+    font-size: 4rem;
+  }
+
+  .travel-content h3 {
+    font-size: 3rem;
+  }
+
+  .travel-content p {
+    font-size: 1.8rem;
+  }
+
+  .travel-content .travel-btn {
+    border-radius: 1.8rem;
+    margin: 0;
+    margin-top: 1.5rem;
+  }
+
+  .world-places h4 {
+    font-size: 2.7rem;
+  }
+
+  .world-places h2 {
+    font-size: 4rem;
+  }
+
+  .parallax-section {
+    display: block;
+  }
+
+  /* Projects Page */
+
+  .project-hero {
+    height: 45rem;
+  }
+
+  .projects-flex {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .flip-card-front img {
+    width: 35rem;
+    height: 45rem;
+  }
+
+  .flip-card {
+    width: 35rem;
+    height: 45rem;
+  }
+
+  .project-content h2,
+  .projects-showcase h2 {
+    font-size: 4rem;
+  }
+
+  /* Contact-Page */
+  .contact-flex {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .contact-description h2,
+  .contact-form h2 {
+    font-size: 3.2rem;
+    font-weight: 700;
+  }
+
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  /* Floating Animation For Images */
+  .floating {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+  }
+
+  @keyframes floating {
+    from {
+      transform: translate(0, 0px);
+    }
+    65% {
+      transform: translate(0, 15px);
+    }
+    to {
+      transform: translate(0, -0px);
+    }
+  }
+
+  /* Wave Animation */
+  .wave {
+    animation-name: wave-animation;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+    color: goldenrod;
+  }
+
+  @keyframes wave-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(14deg);
+    }
+    20% {
+      transform: rotate(-8deg);
+    }
+    30% {
+      transform: rotate(14deg);
+    }
+    40% {
+      transform: rotate(-4deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    60% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+}
+
+@media (min-width: 1050px) {
+  .about-section .about-content {
+    justify-content: space-around;
+  }
+
+  .about-img img {
+    width: 40rem;
+    height: 40rem;
+  }
+
+  .main-hero .hero-flex {
+    justify-content: space-around;
+  }
+
+  /* Trave-Page */
+  .travel-content {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
